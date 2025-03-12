@@ -35,7 +35,7 @@ body {
 .padre img, .padre video {
     width: 100%;
     height: auto;
-    object-fit: cover; 
+    object-fit: contain; 
 }
 .padre .hijo1 {
     background-color: rgb(227, 58, 16);

@@ -1,0 +1,182 @@
+body {
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.padre {
+    background-color: bisque;
+    padding: 5px;
+    display: grid;
+    width: 80vw;
+    height: 80vh;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; 
+    grid-template-areas: 
+        "hijo1 hijo1 hijo1 hijo1 hijo1 hijo1 hijo1 "
+        "hijo2 hijo2 hijo2 hijo2 hijo2 hijo2 hijo2 "
+        "hijo3 hijo4 hijo5 hijo5 hijo6 hijo7 hijo7 "
+        "hijo3 hijo4 hijo5 hijo5 hijo6 hijo10 hijo11 "
+        "hijo8 hijo9 hijo5 hijo5 hijo6 hijo10 hijo12 "
+        "hijo8 hijo9 hijo5 hijo5 hijo6 hijo10 hijo13 "
+        "hijo14 hijo14 hijo14 hijo15 hijo15 hijo15 hijo15 "
+        "hijo16 hijo16 hijo16 hijo16 hijo16 hijo16 hijo16 ";
+    border: 2px solid rgb(14, 13, 13); 
+    padding: 10px;
+}
+
+.hijo1,.hijo2,.hijo3,.hijo4,.hijo5,.hijo6,.hijo7,.hijo8,.hijo9,.hijo10,.hijo11,.hijo12,.hijo13,.hijo14,.hijo15,.hijo16{
+    border: 2px solid rgb(14, 13, 13);
+
+}
+.padre img, .padre video {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+.padre .hijo1 {
+    background-color: rgb(227, 58, 16);
+    margin: 5px;
+    grid-area: hijo1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.padre .hijo2 {
+    background-color: rgb(223, 249, 223);
+    margin: 5px;
+    grid-area: hijo2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.padre .hijo3 {
+    
+    background-color: rgb(16, 227, 16);
+    
+    margin: 5px;
+    grid-area: hijo3;
+}
+
+.padre .hijo4 {
+    background-color: rgb(16, 227, 16);
+    margin: 5px;
+    grid-area: hijo4;
+}
+
+.padre .hijo5 {
+    background-color: rgb(31, 55, 31);
+    margin: 5px;
+    grid-area: hijo5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 400px;
+}
+
+.padre .hijo6 {
+    background-color: rgb(16, 227, 16);
+    margin: 5px;
+    grid-area: hijo6;
+}
+
+.padre .hijo7 {
+    background-color: rgb(168, 139, 247);
+    margin: 5px;
+    grid-area: hijo7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.padre .hijo8 {
+    background-color: rgb(16, 227, 16);
+    margin: 5px;
+    grid-area: hijo8;
+}
+
+.padre .hijo9 {
+    background-color: rgb(16, 227, 16);
+    margin: 5px;
+    grid-area: hijo9;
+}
+.padre .hijo10 {
+    background-color: rgb(168, 139, 247);
+    margin: 5px;
+    grid-area: hijo10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.padre .hijo11 {
+    background-color: rgb(168, 139, 247);
+    margin: 5px;
+    grid-area: hijo11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.padre .hijo12 {
+    background-color: rgb(168, 139, 247);
+    margin: 5px;
+    grid-area: hijo12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.padre .hijo13 {
+    background-color: rgb(168, 139, 247);
+    margin: 5px;
+    grid-area: hijo13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.padre .hijo14 {
+    background-color: rgb(120, 177, 34);
+    margin: 5px;
+    grid-area: hijo14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.padre .hijo15{
+    background-color: rgb(120, 177, 34);
+    margin: 5px;
+    grid-area: hijo15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.padre .hijo16{
+    background-color: rgb(120, 177, 34);
+    margin: 5px;
+    grid-area: hijo16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.padre img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
